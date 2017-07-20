@@ -1,4 +1,4 @@
-FROM python:2.7-slim
+FROM python:3.6.1
 
 ENV RASA_NLU_DOCKER="YES" \
     RASA_NLU_HOME=/app \
@@ -21,6 +21,7 @@ COPY ./requirements.txt requirements.txt
 
 # Split into pre-requirements, so as to allow for Docker build caching
 RUN pip install $(tail -n +2 requirements.txt)
+RUN pip install git+https://github.com/mit-nlp/MITIE.git#egg=mitie
 
 COPY . ${RASA_NLU_HOME}
 

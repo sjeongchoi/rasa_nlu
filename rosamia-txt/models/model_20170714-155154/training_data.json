@@ -1,0 +1,61 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "hobby",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "move",
+            "entity": "culture"
+          }
+        ],
+        "text": "i like move"
+      },
+      {
+        "intent": "hobby",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "ski",
+            "entity": "sports"
+          }
+        ],
+        "text": "i like ski"
+      },
+      {
+        "intent": "find restaurant",
+        "entities": [],
+        "text": "i want to go macdonald"
+      },
+      {
+        "intent": "smile",
+        "entities": [],
+        "text": "haha"
+      },
+      {
+        "intent": "smile",
+        "entities": [],
+        "text": "hoho"
+      },
+      {
+        "intent": "find restaurant",
+        "entities": [],
+        "text": "where is restaurant"
+      },
+      {
+        "intent": "\ud074\ub9ad",
+        "entities": [],
+        "text": "\ub098\ub294 \ud074\ub9ad\ud558\uace0 \uc2f6\ub2e4"
+      },
+      {
+        "intent": "\ud074\ub9ad",
+        "entities": [],
+        "text": "\ub098\ub294 \ud074\ub9ad\ud55c\ub2e4"
+      }
+    ],
+    "regex_features": []
+  }
+}

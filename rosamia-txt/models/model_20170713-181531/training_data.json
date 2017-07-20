@@ -1,0 +1,36 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "hobby",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "move",
+            "entity": "culture"
+          }
+        ],
+        "text": "i like move"
+      },
+      {
+        "intent": "hobby",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "ski",
+            "entity": "sports"
+          }
+        ],
+        "text": "i like ski"
+      },
+      {
+        "intent": "hobby",
+        "entities": [],
+        "text": "haha"
+      }
+    ],
+    "regex_features": []
+  }
+}

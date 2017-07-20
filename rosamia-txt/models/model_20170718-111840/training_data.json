@@ -1,0 +1,49 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "\ub85c\uadf8\uc778 \uc218\ud589",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "\"${\uc544\uc774\ub514}\"",
+            "entity": "\uc544\uc774\ub514"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "\"${\ud328\uc2a4\uc6cc\ub4dc}\"",
+            "entity": "\ud328\uc2a4\uc6cc\ub4dc"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "\ub85c\uadf8\uc778\ud558\uace0 \uc2f6\ub2e4",
+            "entity": "\ub85c\uadf8\uc778 \uc218\ud589"
+          }
+        ],
+        "text": "\ub098\ub294 \"${\uc544\uc774\ub514}\", \"${\ud328\uc2a4\uc6cc\ub4dc}\"\ub85c \ub85c\uadf8\uc778\ud558\uace0 \uc2f6\ub2e4"
+      },
+      {
+        "intent": "\uc624\ube0c\uc81d\ud2b8 \ud074\ub9ad \uc218\ud589",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "\uc624\ube0c\uc81d\ud2b8",
+            "entity": "\"${\uc624\ube0c\uc81d\ud2b8}\""
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "\ud074\ub9ad\ud55c\ub2e4",
+            "entity": "\ud074\ub9ad \uc218\ud589"
+          }
+        ],
+        "text": "\"${\uc624\ube0c\uc81d\ud2b8}\" \uc624\ube0c\uc81d\ud2b8\ub97c \ud074\ub9ad\ud55c\ub2e4"
+      }
+    ],
+    "regex_features": []
+  }
+}
