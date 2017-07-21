@@ -2,7 +2,7 @@ FROM python:3.6.1
 
 ENV RASA_NLU_DOCKER="YES" \
     RASA_NLU_HOME=/app \
-    RASA_NLU_PYTHON_PACKAGES=/usr/local/lib/python2.7/dist-packages
+    RASA_NLU_PYTHON_PACKAGES=/usr/local/lib/python3.6/dist-packages
 
 VOLUME ["${RASA_NLU_HOME}", "${RASA_NLU_PYTHON_PACKAGES}"]
 
