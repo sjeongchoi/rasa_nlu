@@ -22,6 +22,7 @@ COPY ./requirements.txt requirements.txt
 # Split into pre-requirements, so as to allow for Docker build caching
 RUN pip install $(tail -n +2 requirements.txt)
 RUN pip install git+https://github.com/mit-nlp/MITIE.git#egg=mitie
+RUN pip install -U scikit-learn scipy sklearn-crfsuite
 
 COPY . ${RASA_NLU_HOME}
 
